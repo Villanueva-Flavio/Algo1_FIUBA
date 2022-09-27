@@ -228,7 +228,7 @@ void mostrar_personaje(int resultado_cuentitas, double hora_de_llegada, char* am
 	}
 }
 
-void revisar_amigo(char* amigo){
+int main(){
 	int nota, resultado_cuentitas;
 	double hora_de_llegada;
 	char vehiculo, arma;

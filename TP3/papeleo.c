@@ -198,7 +198,7 @@ bool papeleos_movibles(int movimientos, int nivel, bool interruptor_apretado){
 * De lo contrario false
 */
 bool coordenadas_iguales(coordenada_t a, coordenada_t b){
-    return (a.fil == b.fil && a.col == b.col)? true:false;
+    return a.fil == b.fil && a.col == b.col;
 }
 
 /*
