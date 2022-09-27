@@ -231,8 +231,9 @@ void mostrar_personaje(int resultado_cuentitas, double hora_de_llegada, char* am
 int main(){
 	int nota, resultado_cuentitas;
 	double hora_de_llegada;
-	char vehiculo, arma;
+	char vehiculo, arma, amigo;
 	realizar_cuestionario(&nota, &hora_de_llegada, &vehiculo, &arma);
 	resultado_cuentitas = puntaje_total(vehiculo, arma, nota);
-	mostrar_personaje(resultado_cuentitas, hora_de_llegada, amigo);
+	mostrar_personaje(resultado_cuentitas, hora_de_llegada, &amigo);
+	return 0;
 }
